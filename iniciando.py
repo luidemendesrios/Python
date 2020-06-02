@@ -10,7 +10,28 @@
 
 print('Olá Mundo')
 
-string_1 = "Luiz"
-string_2 = "python"
-print("Olá seja bem vindo %s. 'Vamos começar a programar em %s." % (string_1, string_2))
+#Saída usando VARIÁVEIS
+
+nome = "Luiz"
+linguagem = "python"
+print("Olá, seja bem vindo %s. 'Vamos começar a programar em %s." % (nome, linguagem))
+
+#ENTRADAS
+
+name  = input("What is your name?")
+quest = input("What is your quest?")
+color = input("What is your favorite color?")
+
+print("Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color) )
+
+#COMENTÁRIOS
+
+#Em linha
+
+#EM bloco
+
+'''isto é uma multi-linha comentar, eu sou útil para comentar todo pedaços de código muito rápido  '''
+
+
 
