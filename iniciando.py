@@ -128,3 +128,29 @@ equacao = (5+3)**2 * (5-2) + 8
 print(equacao) #resposta 200
 
 
+#CONVERSÃO DE TIPO
+
+x = 1 #int
+y = 2.5 #float
+z = 1j #complex
+
+#converte de int para float:
+a = float(x)
+
+#Converte de float para int:
+b = int(y)
+
+#Converte de int para complexo:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+
+
+
