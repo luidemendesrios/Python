@@ -107,5 +107,24 @@ abs(-1)      # 1 | pega o módulo de um número
 
 import random
 
-random.randint(1, 10)
+gerador = random.randint(1, 10)
 #O código acima irá gerar números randômicos entre 1 e 10 (incluindo o 1 e o 10).
+print(f'O número gerado e: {gerador}')
+
+
+#Obs: Deve se levar em conta quando realizar uma operação matemática a ordem de precedência dos operadores que são
+'''
+Tabela 4.2: Precedência Geral de Operadores Aritméticos
+Ordem	Operação	Símbolo
+ 1ª	    Parênteses	  ()
+ 2ª	    Potenciação	  **
+ 3ª	    Multiplicação, Divisão, Resto e Divisão Inteira	*, /, mod, div
+ 4ª	    Adição, Subtração	+, -
+
+'''
+#Exemplo de uma operação 
+
+equacao = (5+3)**2 * (5-2) + 8 
+print(equacao) #resposta 200
+
+
