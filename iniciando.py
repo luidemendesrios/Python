@@ -152,5 +152,67 @@ print(type(b))
 print(type(c))
 
 
+#STRINS
 
+#Concatenamos strings com sinal +
+
+print("Olá " +"seja " + " bem vindo!")
+
+
+#Quando concatenamos com um número, precisamos fazer a conversão.
+
+print("O valor de pi e " + str(3.14))
+
+'''
+Métodos básicos de string
+
+função	descrição
+len()	mostra o tamanho da string
+lower()	caixa baixa
+upper()	caixa alta
+str()	converte em string
+isalpha()	retorna False se a string contiver algum caracter que não seja letras
+'''
+
+#exemplo 
+
+nome = "pedro"
+
+print(nome.upper())
+
+print(nome.isalpha())
+print('\n')
+'''
++---+---+---+---+---+---+
+| p | y | t | h | o | n |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+'''
+"python"[0] # 'p'
+"python"[1] # 'y'
+"python"[2] # 't'
+"python"[3] # 'h'
+"python"[4] # 'o'
+"python"[5] # 'n'
+
+#Percorrendo strings (string lopping)
+
+for letter in "python":
+    print(letter)
+
+"""
+p
+y
+t
+h
+o
+n
+"""
+print('\n')
+
+#Método replace
+
+a = "Hello, World!"
+print(a.replace("H", "J"))
 
