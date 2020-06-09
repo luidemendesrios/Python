@@ -216,3 +216,24 @@ print('\n')
 a = "Hello, World!"
 print(a.replace("H", "J"))
 
+#Controle de fluxo (condicionais)
+
+expressao = 3 > 2
+
+if expressao == True:
+  print("Verdadeira")
+else:
+  print("Falsa")
+
+#usando o elif
+valor = 5
+
+if valor > 1:
+  print(f'valor maior que 1 e positivo -> {valor}')
+elif valor == 1:
+  print(f'Valor igual a 1 -> {valor}')
+elif valor == 0:
+  print(f'Valor igual a zero -> {valor}')
+else:
+  print(f'Valor negativo -> {valor}')
+
