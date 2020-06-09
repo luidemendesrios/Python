@@ -237,3 +237,79 @@ elif valor == 0:
 else:
   print(f'Valor negativo -> {valor}')
 
+
+#O loop for é usado para iterar sobre uma sequência (ou seja, uma lista, uma tupla, um dicionário, um conjunto ou uma sequência de caracteres).
+
+#exemplo 1
+
+fruits = ["apple", "banana", "cherry"]
+
+for x in fruits:
+  print(x)
+
+
+#exemplo 2
+'''
+for x in "banana":
+  print(x)
+'''
+#exemplo 3
+'''
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+'''
+#exemplo 4 - Com o break para parar a iteração do loop
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+
+#exemplo 5 - Como o continue podemos parar a iteração atual do loop e continuar com a próxima:
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+#exemplo 6 - Para percorrer um conjunto de códigos um número especificado de vezes, podemos usar a função range
+'''
+for x in range(6):
+  print(x)
+'''
+#Começar no dois e ir
+'''
+for x in range(2, 6):
+  print(x)
+'''
+#Começa a sequência no 2 vai até o 30 pulando de 3 em 3
+'''
+for x in range(2, 30, 3):
+  print(x)
+'''
+#Usando o else no loop for
+'''
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+'''
+#Um loop aninhado é um loop dentro de um loop. O "loop interno" será executado uma vez para cada iteração do "loop externo"
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+#os loops não podem estar vazios, mas se, por algum motivo, você tiver um loop for sem conteúdo, insira a instrução pass para evitar erros.
+
+for x in [0, 1, 2]:
+  pass
+
